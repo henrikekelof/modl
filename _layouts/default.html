@@ -1,26 +1,2 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    {% if page.description %}
-    <meta name="description" content="{{ page.description }}" />
-    {% endif %}
-    <link rel="stylesheet" media="screen" href="screen.css">
-</head>
-<body>
-<div id="page">
-    <div id="header">
-        <a href="/"><h1>{{ site.title }}</h1></a>
-    </div>
-    <div id="body">
-        {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
-        {{ content }}
-    </div>
-</div>
 
-{% if site.github %}
-<a href="http://github.com/{{ site.github.username }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
-{% endif %}
-</body>
-</html>
+{{ content }}
