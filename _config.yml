@@ -2,12 +2,3 @@
 
 exclude: ['Rakefile', 'README.md', 'config.rb']
 
-#
-
-title: ModL
-author: Henrik Ekelöf
-email: henrik@hmail.se
-
-github:
-  username: henrikekelof
-
